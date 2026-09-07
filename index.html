@@ -11,10 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 <script>
 const SITE_SETTINGS = {
-  'phoneNumber': '+79034359423',
+  'phoneNumber': '+79036728688',
   'telegramEnabled': 1,
-  'telegramNickname': 'Elviramag781',
-  'psychicName': 'Ельвира',
+  'telegramNickname': 'NineMag7771',
+  'psychicName': 'Нина',
   'city': 'Москва (район Арбат)',
   'address': 'г. Москва, ул. Большая Никитская, д. 23, этаж 3',
   'enableRedirect': false,
@@ -28,7 +28,7 @@ const SITE_SETTINGS = {
   'responseTime': '6 минут',
   'metrikaMessengerVisible': false
 };
-const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Ельвира';
+const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Нина';
 const PHONE_DIGITS=(SITE_SETTINGS.phoneNumber||'').replace(/\D/g,'');
 const WHATSAPP_MESSAGE=PSYCHIC_NAME ? `Здравствуйте, ${PSYCHIC_NAME}! Хочу обратиться к вам за помощью.` : 'Здравствуйте, хочу обратиться к вам за помощью.';
 const TELEGRAM_MESSAGE=WHATSAPP_MESSAGE;
@@ -1326,7 +1326,7 @@ ym(SITE_SETTINGS.yandexMetrikaId,"init",{clickmap:true,trackLinks:true,accurateT
 /* ADSPOWER_PERSONA_RUNTIME_V1: render template persona from current SITE_SETTINGS. */
 (function(){
   function renderPersona(){
-    var name = String((window.SITE_SETTINGS || (typeof SITE_SETTINGS !== 'undefined' ? SITE_SETTINGS : {})).psychicName || 'Ельвира').trim();
+    var name = String((window.SITE_SETTINGS || (typeof SITE_SETTINGS !== 'undefined' ? SITE_SETTINGS : {})).psychicName || 'Нина').trim();
     if(!name || !document.body) return;
     var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
     var nodes = [], node;
